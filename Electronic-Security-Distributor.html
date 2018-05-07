@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+
+<!-- Mirrored from www.fortune-it.com/Electronic-Security-Distributor.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Nov 2016 08:05:27 GMT -->
+<head>
+<meta charset="utf-8" />
+<meta name="google-site-verification" content="-IiBuoVQzJnuCnfByeeDA2GgDyaLKV-OzEIAP-e0voc" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="keywords" content="Distribution" />
+<meta name="description" content="Distribution" />
+<meta property="og:type" content="Distribution" />
+<meta property="og:title" content="Welcome to Fortune Distribution" />
+<meta property="og:site_name" content="Fortune Marketing pvt ltd" />
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<title>Welcome to Fortune Distribution</title>
+
+<!--stylesheets starts-->
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<!--stylesheets ends-->
+<!--javascripts start-->
+<script src="js/jquery.1.11.3.min.js"></script>
+
+		<script type="text/javascript">
+
+$(document).ready(function() {		
+	$( ".mnu-icon" ).click(function() {
+  $( ".mobile-mnu" ).slideToggle( "slow", function() {
+    // Animation complete.
+  });
+});
+});
+ </script>
+<script type="text/javascript">
+
+$(document).ready(function() {		
+	
+	//Execute the slideShow
+	slideShow();
+
+});
+
+function slideShow() {
+
+	//Set the opacity of all images to 0
+	$('#gallery a').css({opacity: 0.0});
+	
+	//Get the first image and display it (set it to full opacity)
+	$('#gallery a:first').css({opacity: 1.0});
+	
+	//Set the caption background to semi-transparent
+	$('#gallery .caption').css({opacity: 0.7});
+
+	//Resize the width of the caption according to the image width
+	$('#gallery .caption').css({width: $('#gallery a').find('img').css('width')});
+	
+	//Get the caption of the first image from REL attribute and display it
+	$('#gallery .content').html($('#gallery a:first').find('img').attr('rel'))
+	.animate({opacity: 0.7}, 400);
+	
+	//Call the gallery function to run the slideshow, 6000 = change to next image after 6 seconds
+	setInterval('gallery()',3000);
+	
+}
+
+function gallery() {
+	
+	//if no IMGs have the show class, grab the first image
+	var current = ($('#gallery a.show')?  $('#gallery a.show') : $('#gallery a:first'));
+
+	//Get next image, if it reached the end of the slideshow, rotate it back to the first image
+	var next = ((current.next().length) ? ((current.next().hasClass('caption'))? $('#gallery a:first') :current.next()) : $('#gallery a:first'));	
+	
+	//Get next image caption
+	var caption = next.find('img').attr('rel');	
+	
+	//Set the fade in effect for the next image, show class has higher z-index
+	next.css({opacity: 0.0})
+	.addClass('show')
+	.animate({opacity: 1.0}, 1000);
+
+	//Hide the current image
+	current.animate({opacity: 0.0}, 1000)
+	.removeClass('show');
+	
+	//Set the opacity to 0 and height to 1px
+	$('#gallery .caption').animate({opacity: 0.0}, { queue:false, duration:50 }).animate({height: '1px'}, { queue:true, duration:300 });	
+	
+	//Animate the caption, opacity to 0.7 and heigth to 100px, a slide up effect
+	$('#gallery .caption').animate({opacity: 0.7},100 ).animate({height: '100px'},500 );
+	
+	//Display the content
+	$('#gallery .content').html(caption);
+	
+	
+}
+
+</script>
+<!--javascripts ends-->
+
+</head>
+<body>
+<div class="wrapper">
+
+
+<!--header starts-->
+
+<header>
+  <div class="inner-div">
+      <div class="logo"><a href="index-2.html"><img src="images/logo.png" title="fortune logo" alt=" Fortune Distribution"/></a></div>
+	 
+<!-- Contact and menu-->
+	 <div class="nav-cnt">
+	 
+	  
+
+<div class="clear"></div>
+<!-- menu details-->
+		 
+		 <div class="nav">
+		 <div class="mobile-menu">
+		   <div class="mnu-icon"><img src="images/mob-mnuicon.png" style="width:auto;"></div>
+              <ul class="mobile-mnu">
+			    <li class="animate active"><a href="index-2.html">Home</a></li>
+				 <li class="animate"><a href="About-us.html">About Us</a></li>
+				 <li class="animate"><a href="core-business.html">Core Business</a> </li>
+				 <li class="animate"><a href="Support-Service.html">Support & Service</a></li>
+				 <li class="animate"><a href="career.html">Careers</a></li>
+				 <li class="animate"><a href="Contact-us.html">Contact Us</a></li>
+			  </ul>
+		   </div>
+		 
+		   <nav>
+		       <ul>
+	
+			     <li class="animate "><a href="index-2.html">Home</a></li>
+				 <li class="animate"><a href="About-us.html">About Us</a></li>
+				 <li class="animate active"><a href="javascript:void();">Core Business</a>
+				    <ul class="sub-mnu animate">
+					  <li><a href="Distribution.html">
+					    <div class="sub-mnu-icon animate"><img src="images/hom-dist-icon.png" title="Distributor" alt="Distributor"/></div><span>Distribution</span>
+					  </a></li>
+					  
+					    <li><a href="Software-Development.html">
+					    <div class="sub-mnu-icon animate"><img src="images/soft-delp-icon.png" title="Software Development" alt="Software Development"/></div><span>Software Development</span>
+					  </a></li>
+					  
+					    <li><a href="Solution-design.html">
+					    <div class="sub-mnu-icon animate"><img src="images/sol-des-icon.png" title="Solution Design" alt="Solution Design"/></div><span>Solution Design</span>
+					  </a></li>
+					  
+					    <li><a href="Manufacturing.html">
+					    <div class="sub-mnu-icon animate"><img src="images/menuf-icon.png" title="Manufacturing" alt="Manufacturing"/></div><span>Manufacturing</span>
+					  </a></li>
+					  
+
+					</ul>
+				 
+				 </li>
+				 <li class="animate"><a href="Support-Service.html">Support & Service</a></li>
+				 <li class="animate"><a href="career.html">Careers</a></li>
+				 <li class="animate"><a href="Contact-us.html">Contact Us</a></li>
+			   </ul>
+		   </nav>
+		 </div>
+		 
+<!-- Contact details-->
+		 
+	  </div>
+	 
+<!-- Contact and menu-->
+
+   </div>
+</header>
+<!--header ends-->
+
+
+<!--container start-->
+
+<div class="container">
+
+<!--banner start-->
+  <div style="position:relative;">
+   <div id="gallery">
+    	<a href="javascript:void();">
+		<img src="images/bnr-enter_logo.png" alt="Enter"  title="Enter"  />
+	</a>
+	
+	<a href="javascript:void();">
+		<img src="images/bnr-sec_logo.png" alt="Secureye"  title="Secureye" />
+	</a>
+	
+	
+	
+</div><img src="images/security-bnr.jpg"/></div>
+  <!--banner ends-->
+  
+  <!--content part start-->
+  
+  
+    <!--about us start-->
+
+    <div class="inner-div">
+	  <div class="about-us-cont distrib-info">
+	     <h1>Electronic Security Distribution</h1>
+		 <p>Starting with our very own brand <b>ENTER</b> producing a wide range of CCTV like AHD CCTV Camera, 960H STANDLONE DVR,  AHD HYBRID STANDLONE DVR and CCTV Accessories like - Power Supply, Connectors & Power Distributor, Cables. Fortune has always captured the essence of the demands of the market. Grabbing the solo distinctive countrywide distributorship of <b>Secureye</b>, a nonpareil worldwide brand, was a clincher.</p>
+
+	  </div>
+	
+		  
+	<div class="clear"></div>
+	  
+	   <!--enter distributor start-->  
+	 <a href="http://www.enter-cctv.com/" target="_blank">
+		<div class="distributor-prd-info">  
+	  <div class="distbutors-info">
+	    <div class="distbut-company-logo"><img src="images/Enter_logo.jpg"/></div>
+		 <p>Enter is a leading Hardware system developer specializing in USB & IO Device. Our products fully utilize PCs' capabilities to enhance productivity. These products enhance personal productivity and create new applications that are more accessible and affordable for today's PCs.
+</p>
+
+<div class="clear"></div>
+<a href="http://www.enter-multimedia.com/" target="_blank" class="home-go-btn dist-btn">Know more about Product</a>
+	  </div>
+ </div>
+ </a>
+	  <!--enter distributor ends-->
+	  
+	  
+	 <!--Secureye distributor start-->  
+	  <a href="http://www.secur-eye.com/" target="_blank">
+	  <div class="distributor-prd-info">
+	  <div class="distbutors-info">
+	    <div class="distbut-company-logo"><img src="images/secureye-logo.jpg"/></div>
+		 <p>Over the past 5 years development Secureye is fully experienced in research and design of cutting- edge technology surveillance equipments. Both hardware and software are modularly-designed with flexibility for different configuration, various scales of applications and future expansions.
+</p>
+	  </div>
+		<div class="clear"></div>
+		 <a href="http://www.secur-eye.com/" target="_blank" class="home-go-btn dist-btn">Know more about Product</a>
+</div>
+</a>
+	  <!--Secureye distributor ends-->
+	  
+	
+	
+	
+	
+	</div>
+ 
+  
+  
+   <!--about us ends-->
+  
+  <!--content part ends-->
+  
+</div>
+
+<!--container ends-->
+<div class="clear"></div>
+
+<!--footer starts-->
+
+<footer>
+  
+      <div class="inner-div">
+	  
+	  <div class="fotter-bxs">
+	     <h3>Fortune Distribution</h3>
+		 <ul>
+		  
+		          <li class="animate active"><a href="index-2.html">Home</a></li>
+				 <li class="animate"><a href="About-us.html">About Us</a></li>
+			 <li class="animate"><a href="Support-Service.html">Support & Service</a></li>
+				 <li class="animate"><a href="career.html">Career</a></li>
+				 <li class="animate"><a href="Contact-us.html">Contact Us</a></li>
+		 
+		 </ul>
+	  </div>
+	  
+	  
+	  <div class="fotter-bxs">
+	     <h3>Latest News</h3>
+		 <p style=" color:#9B9B9B;">Fortune launches New update of ONtime Employee Manager</p>
+		  <a href="javascript:void();" class="go-btn animate" style="background-color: #65881E;">Read More</a>
+	  </div>
+	  
+	  
+	    
+	  <div class="fotter-bxs">
+	     <h3>Contact Information</h3>
+		 <p style="color:#9B9B9B;">D-1/2, Okhla Industrial Area,Phase-II,N.Delhi - 110020</p>
+		 <p style="color:#9B9B9B;">Tel : 91 - 011 - 30890000</p>
+		 <p style=" color:#9B9B9B;">Fax : 91 - 011 - 26462248</p>
+		 <p style=" color:#9B9B9B;">Email : sales@fortune-it.com</p>
+		<div class="footer-socket-area">
+						<a target="_blank" href="javascript:void();" class="gpls_icon"></a>
+						<a target="_blank" href="javascript:void();" class="fb_icon"></a>
+						<a target="_blank" href="javascript:void();" class="linked_icon"></a>
+					
+					</div>
+	  </div>
+	  
+	  
+	    
+	  <div class="fotter-bxs">
+	     <h3>Location Map</h3>
+		 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14018.754028733842!2d77.25143499999999!3d28.54908100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ae56c671f8941d7!2sFortune+Marketing+Pvt+Ltd!5e0!3m2!1sen!2sin!4v1433162670988"  frameborder="0" style="border:0"></iframe>
+	  </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  </div>
+  
+</footer>
+
+<!--footer ends-->
+
+<div class="copyryt">
+   @copyright by Fortune Marketing Pvt Ltd
+</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+</body>
+
+<!-- Mirrored from www.fortune-it.com/Electronic-Security-Distributor.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Nov 2016 08:05:28 GMT -->
+</html>

@@ -1,0 +1,100 @@
+
+.ei-slider{
+	position: relative;
+	width: 100%;
+height: 400px;
+	margin: 0 auto;
+}
+.ei-slider-loading{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:999;
+	background: rgba(0,0,0,0.9);
+	color: #fff;
+	text-align: center;
+	line-height: 400px;
+}
+.ei-slider-large{
+	height: 100%;
+	width: 100%;
+	position:relative;
+	overflow: hidden;
+	  padding: 0;
+  margin: 0;
+}
+.ei-slider-large li{
+	position: absolute;
+	top: 0px;list-style: none;
+	left: 0px;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+.ei-slider-large li img{
+	width: 100%;
+}
+.ei-title{
+	position: absolute;
+	right: 50%;
+	margin-right: 13%;
+	top: 30%; 
+	margin:0; font-family:"Century Gothic";
+}
+
+.ei-slider-thumbs{
+	  height: 12px;
+  border-radius: 25px;
+  margin: 0 auto;
+  position: relative;
+  width: 103px !important;
+  bottom: 23px;
+  z-index: 92;
+  padding:0;
+  opacity:.4;
+}
+.ei-slider-thumbs li{
+	position: relative;
+	float: left;  width: 12px !important;  border-radius:25px; margin-right:3px;list-style: none;
+	height: 100%;
+}
+.ei-slider-thumbs li.ei-slider-element{
+	top: 0px;  width: 12px !important;border-radius:25px;
+	left: 0px;
+	position: absolute;
+	height: 100%;
+	z-index: 10;
+	text-indent: -9000px;
+	background: #000;
+	background: rgba(89, 120, 27, 1);
+}
+.ei-slider-thumbs li a{
+	display: block;
+	text-indent: -9000px;
+	background:#AE3583;
+	width: 100%;
+	height: 100%;border-radius:25px;
+	cursor: pointer;
+	-webkit-transition: background 0.2s ease;
+    -moz-transition: background 0.2s ease;
+    -o-transition: background 0.2s ease;
+    -ms-transition: background 0.2s ease;
+    transition: background 0.2s ease;
+}
+.ei-slider-thumbs li a:hover{
+	background-color: #C5943B;
+}
+
+.inovtion{left: 6% ; top: 14% ;}
+.inovtion h2{font-size:39px;}
+.sol-degin{  top: 31%;  left: 10%;    color: rgb(255, 212, 40);  text-shadow: 0px 0px 3px #F4EA93;}
+.sol-degin h2{font-size:42px; font-weight: normal;}
+.chalnge{  top: 14%;  right: 10%;color: #FFCE4D;text-shadow: 0px 0px 3px #F4EA93;}
+.chalnge h3{font-size:37px;font-weight: normal; }
+.develop{top:83%;right:30%;}
+.inspire{top:78%;right:8%;}
+@media screen and (max-width: 830px) {
+	
+}
