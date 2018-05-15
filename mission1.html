@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US" class="no-js">
 <head>
 <meta charset="utf-8" />
@@ -15,13 +15,32 @@
 <!--css starts-->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/banner-slider.css" rel="stylesheet" type="text/css" media="all" />
-<!--css ends-->
+
+<!--stylesheets ends-->
+<!--javascripts start-->
+<script src="js/jquery.1.11.3.min.js"></script>
+
+		<script type="text/javascript">
+
+$(document).ready(function() {		
+	$( ".mnu-icon" ).click(function() {
+  $( ".mobile-mnu" ).slideToggle( "slow", function() {
+    // Animation complete.
+  });
+});
+});
+ </script>
+<!--javascripts ends-->
+
 </head>
 <body>
 <div class="wrapper">
+
+
 <!--header starts-->
+
 <header>
-  <div class="inner-div">
+ <div class="inner-div">
   <div class="logo"><a href="index.html"><img src="images/logo.png" title="Phillibee logo" alt=" Phillibee Infrastructure"/></a></div>
 <!-- Contact and menu-->
      <div class="nav-cnt">
@@ -37,16 +56,16 @@
                  <li class="animate"><a href="uoi1.html">Urban & Other Infrastructure</a> </li>
                  <li class="animate"><a href="Solution-design1.html">Solution Design</a> </li>
                  <li class="animate"><a href="Support-Service1.html">Support & Service</a> </li>
-                 <li class="animate"><a href="mission1.html">Mission & Vision</a></li>
+                 <li class="animate active"><a href="mission1.html">Mission & Vision</a></li>
                  <li class="animate"><a href="career1.html">Careers</a></li>
                  <li class="animate"><a href="Contact-us1.html">Contact Us</a></li>
               </ul>
            </div>
            <nav>
                <ul>
-                 <li class="animate active"><a href="index.html">Home</a></li>
+                 <li class="animate"><a href="index.html">Home</a></li>
                  <li class="animate"><a href="About-us.html">About Us</a></li>
-                 <li class="animate"><a href="javascript:void();">Core Business</a>
+                 <li class="animate active"><a href="javascript:void();">Core Business</a>
                     <ul class="sub-mnu animate">
                       <li><a href="waterways1.html">
                         <div class="sub-mnu-icon animate"><img src="images/hom-dist-icon.png" title="Water Ways" alt="Water Ways"/></div><span>Water Ways</span>
@@ -73,62 +92,74 @@
       </div>
 <!-- Contact and menu-->
    </div>
+
+
 </header>
-<!--header ends-->
-<!--container start-->
+
 <div class="container">
-<!--banner start-->
-  <div class="banner">
+
+<div class="banner">
+
    <!-- Slideshow 4 -->
+
     <div id="ei-slider" class="ei-slider">
                     <ul class="ei-slider-large">
-                        <li>
-                            <img src="images/bnr-new-1-4.jpg" alt="image06"/>
-                            <div class="ei-title chalnge inovtion">
-                                <h2>Urban & Other Infrastructure</h2>
+						<li>
+                            <img src="images/mission2.jpg" alt="image06"/>
+                            <div class="ei-title  inovtion">
+                                <h2 style="color:#000000;"></h2>
+                                  </div>
+
+                        </li>
+						 <li>
+                            <img src="images/mission1.jpg" alt="image04"/>
+                           <div class="ei-title chalnge inovtion">
+                               <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                <h2 style="color:#000000;">Leadership: The courage to shape a better future</h2>
                                   </div>
                         </li>
-                         <li>
-                            <img src="images/bnr-ext5-3.jpg" alt="image04"/>
-                           <div class="ei-title inovtion">
-                               <br><br><br><br><br><br><br><br><br><br><br><br>
-                                <h2>Construct, Execute, Carryout</h2>
+						 <li>
+                            <img src="images/mission3.jpg" alt="image03"/>
+                            <div class="ei-title inovtion"><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                <h2>Collaboration: Leverage collective genius</h2>
                                   </div>
                         </li>
-                         <li>
-                            <img src="images/bnr-ext5-2.jpg" alt="image03"/>
-                        </li>
+
+
                         <li>
-                            <img src="images/bnr-new-1-1.jpg" alt="image07"/>
-                            <div class="ei-title inovtion">
-                                <h2 style="color:#fff;">Improve, Work ,Develop</h2>
+                            <img src="images/mission4.jpg" alt="image07"/>
+                            <div class="ei-title inovtion"> <br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br>
+                                <h2 style="color:#FF1428;">Quality: What we do, we do well</h2>
+
                             </div>
                         </li>
                         <li>
-                            <img src="images/bnr-ext4.jpg" alt="image01" />
-                               <div class="ei-title sol-degin">
-                                <h2>Solutions Design</h2>
+                            <img src="images/mission5.jpg" alt="image01" />
+                               <div class="ei-title sol-degin"> <br><br><br><br><br><br><br>
+                                <h2 style="color:#000000;">Possess a world view</h2>
                               </div>
-                                      <div class="ei-title chalnge">
-                                <h3 style="color:rgb(255, 212, 40);">Equip, Support Maintain</h3>
+							          <div class="ei-title chalnge">
+                                <h3 style="color:rgb(255, 34, 49);">Act with urgency</h3>
                               </div>
-                              <div class="ei-title chalnge inspire">
-                                <h3 style="color:rgb(255, 212, 40);">Operate</h3>
+							  <div class="ei-title chalnge inspire">
+                                <h3 style="color:rgb(15, 27, 255);">Work efficiently</h3>
                                </div>
-                               <div class="ei-title chalnge develop">
-                                <h3>Carrying out Equipment</h3>
+							   <div class="ei-title chalnge develop">
+                                <h3></h3>
                                </div>
                         </li>
                         <li>
-                            <img src="images/bnr-ext5.jpg" alt="image02" />
-                            <div class="ei-title chalnge inovtion">
-                                <h2>Developing an Infrastructure Project</h2>
-                               </div>
-                            </li>
+                            <img src="images/mission6.jpg" alt="image07"/>
+                            <div class="ei-title inovtion">
+                                <h2 style="color:#183EE6;">Architect, Build, Operate and Enhance</h2>
+
+                            </div>
+                        </li>
+
                     </ul><!-- ei-slider-large -->
                     <ul class="ei-slider-thumbs">
                         <li class="ei-slider-element">Current</li>
-                        <li><a href="#"></a></li>
+						<li><a href="#"></a></li>
                         <li><a href="#"></a></li>
                         <li><a href="#"></a></li>
                         <li><a href="#"></a></li>
@@ -136,140 +167,181 @@
                         <li><a href="#"></a></li>
                        </ul><!-- ei-slider-thumbs -->
                 </div><!-- ei-slider -->
+
+
+
  </div>
-  <!--banner ends-->
-  <!--content part start-->
-  <div class="inner-div">
-   <!--services start-->
-     <div class="view-services">
-          <!--first box start-->
-        <div class="home-srv-bx">
-            <a href="waterways1.html" ><div class="home-servc-icon"><img src="images/home-dist-icon.png" title="Water Ways" alt="Water Ways"/></div></a>
-           <h1>Water Ways</h1>
-            <a href="waterways1.html" class="home-go-btn">Find Out More</a>
-         </div>
-          <!--first box ends-->
-          <!--second box start-->
-        <div class="home-srv-bx">
-           <a href="uoi1.html">  <div class="home-servc-icon" style="background:#3452B2;">
-           <img src="images/home-soft-delp-icon.png" title="Urban & Other Infrastructure" alt="Urban & Other Infrastructure"/></div></a>
-          <h1>Urban & Other Infrastructure</h1>
-         <a href="uoi1.html" class="home-go-btn">Find Out More</a>
-         	</div>
-          <!--second box ends-->
-            <!--third box start-->
-        <div class="home-srv-bx">
-          <a href="Solution-design1.html">  <div class="home-servc-icon" style="  background:#AE3583;">
-          <img src="images/home-sol-des-icon.png" title="Solution Design" alt="Solution Design"/></div></a>
-           <h1>Solution's Design</h1>
-              <a href="Solution-design1.html" class="home-go-btn">Find Out More</a>
-          </div>
-          <!--third box ends-->
-            <!--forth box start-->
-        <div class="home-srv-bx">
-         <a href="mission1.html" > <div class="home-servc-icon" style="background:#C5943B">
-         <img src="images/home-menuf-icon.png" title="Mission & Vision" alt="Mission & Vision"/></div></a>
-            <h1>Mission & Vision</h1>
-             <a href="mission1.html" class="home-go-btn">Find Out More</a>
-         </div>
-          <!--forth box ends-->
-     </div>
-       <!--services ends-->
-  </div>
-    <div class="clear"></div>
-    <!--about us start-->
-  <div style="background:#4583D5; overflow:hidden;">
+
     <div class="inner-div">
-      <div class="about-us-cont">
-         <h1 style="color:#fff;">Phillibee Infrastructure (P) Ltd.</h1>
-         <p style="color:#fff;">Indian domestic market throbbed with new opportunities in the last decade of the 20th century and in this fiercely competitive mid-90s marketing milieu, Phillibee Infrastructure (P) Ltd., appeared on the horizon. <br/>And, the story has been replete with constant evolution and elevation, glories and achievements, one after another. Merely a Delhi-based Infrastructure company of 2017 has enlarged into an out-and-out distribution company for Infrastructure with a solid pan-Indian presence and appeal.</p>
- <a href="About-us.html" class="go-btn animate">Read More</a>
-      </div>
-      <div class="abtus-img">
-      <h3>Infrastructure</h3>
-         <div id="gallery">
-    	<a href="http://www.enter-multimedia.com/" target="_blank">
-        <img src="images/bnr-enter_logo.png" alt="Enter"  title="Enter"  />
-        <span>enter-multimedia.com</span>
-    </a>
-    <a href="http://www.secur-eye.com/" target="_blank">
-    <img src="images/bnr-sec_logo.png" alt="Secureye"  title="Secureye" />
-        <span>secur-eye.com</span>
-    </a>
-    <a href="http://www.pny.com.tw/index.php?mode=product&amp;NodeID=1" target="_blank">
-        <img src="images/bnr-hp_logo.png" alt="HP"  title="HP" />
-        <span>pny.com.tw/index.php</span>
-    </a>
-    <a href="http://www.creative.com/" target="_blank">
-        <img src="images/bnr-creative_logo.png" alt="creative"  title="creative" />
-        <span>creative.com</span>
-    </a>
-    <a href="https://www.pny.com/" target="_blank">
-        <img src="images/bnr-pny_logo.png" alt="PNY"  title="PNY" />
-        <span>pny.com</span>
-    </a>
-    <a href="http://www.seagate.com/in/en/" target="_blank">
-        <img src="images/bnr-seagt_logo.png" alt="Seagate"  title="Seagate" />
-        <span>seagate.com</span>
-    </a>
-    <a href="http://zoook.com/" target="_blank">
-        <img src="images/bnr-zok_logo.png" alt="Zoook"  title="Zoook" />
-        <span>zoook.com</span>
-    </a>
-    <a href="http://www.tenda.cn/uk/" target="_blank">
-        <img src="images/bnr-tenda_logo.png" alt="tenda"  title="tenda" />
-        <span>tenda.cn</span>
-    </a>
-</div>
-      </div>
-    </div>
-  </div>
-     <!--about us ends-->
+	  <div class="about-us-cont distrib-info">
+	     <h1>Mission and Vision of the Comapny</h1>
+		 <p  style="text-align: justify">
+          The world is changing all around us. To continue to thrive as a business over the next ten years and beyond, we must look ahead, understand the trends and forces that will
+          shape our business in the future and move swiftly to prepare for what's to come. We must get ready for tomorrow today. That's what our 2020 Vision is all about.
+          It creates a long-term destination for our business and provides us with a "Roadmap" for winning together with our business partners.
+          <br><br><b>Our Mission</b><br>
+          Our Roadmap starts with our mission, which is enduring. It declares our purpose as a company and serves as the standard against which we weigh our actions and decisions.
+          <br>
+<ul>
+    <li>To refresh the world...</li>                                                                         <br>
+    <li>To inspire moments of optimism and happiness...</li>                                                     <br>
+    <li>To create value and make a difference.</li>                                                                  <br>
+</ul>
+<br>
+<b>Our Vision </b>
+<br>Our vision serves as the framework for our Roadmap and guides every aspect of our business by describing what we need to accomplish in order to continue achieving sustainable, quality growth and long-term value retention.<br> <br>
+<ul>
+    <li><i><span style="color: #FF9494">People:</span></i> Be a great place to work where people are inspired to be the best they can be.</li>               <br>
+    <li><i><span style="color: #9FA9F4">Portfolio:</span></i> Bring to the world a portfolio of quality beverage brands that anticipate and satisfy people's desires and needs.</li><br>
+    <li><i><span style="color: #9EFFA1">Partners:</span></i> Nurture a winning network of customers and suppliers, together we create mutual, enduring value.</li>                      <br>
+    <li><i><span style="color: #E277E4">Planet:</span></i> Be a responsible citizen that makes a difference by helping build and support sustainable communities.</li>                      <br>
+    <li><i>Productivity:</i> Be a highly effective, lean and fast-moving organization.</li>                                                                     <br>
+</ul>
+		 </p>
+	  </div>
+			 <!--first box start-->
+		<div class="srv-bx distrib-inr-bx" style="  background:#59781B; border:0; ">
+		   <div class="services-icon"><img src="images/product-icon.png" title="Products" alt="Products"/></div>
+		   <div class="about-this-serv">
+		      <h1>Focus on the Market</h1>
+			  <p>
+<ul>
+    <li><span style="color: #FFFFFF">Focus on needs of our consumers,</span></li>
+    <li><span style="color: #FFFFFF">Get out into the market and listen, observe and learn</span></li>
+    <li><span style="color: #FFFFFF">Possess a world view</span></li>
+    <li><span style="color: #FFFFFF">Be insatiably curious</span></li>
+</ul>
+			  </p>
+
+		   </div>
+		</div>
+		  <!--first box ends-->
+		  
+		  	  <!--second box start-->
+		<div class="srv-bx distrib-inr-bx" style="  background:#3452B2; border:0; ">
+		   <div class="services-icon"><img src="images/logistic-icon.png" title="Logistic " alt="Logistic"/></div>
+		   <div class="about-this-serv">
+		      <h1>Work Smart</h1>
+			  <p>
+<ul>
+    <li><span style="color: #FFFFFF">Act with urgency</span></li>
+    <li><span style="color: #FFFFFF">Remain responsive to change</span></li>
+    <li><span style="color: #FFFFFF">Remain constructively discontent</span></li>
+    <li><span style="color: #FFFFFF">Work efficiently</span></li>
+</ul>
+               </p>
+			 
+		   </div>
+		</div>
+		  <!--second box ends-->
+
+
+			  <!--third box start-->
+		<div class="srv-bx distrib-inr-bx" style="  background:#AE3583; border:0; ">
+		   <div class="services-icon"><img src="images/post-sail-icon.png" title="Post and Pre Sales" alt="Post and Pre Sales"/></div>
+		   <div class="about-this-serv">
+		      <h1>Act Like Owners</h1>
+			  <p>
+<ul>
+    <li><span style="color: #FFFFFF">Be accountable for our actions and inactions</span></li>
+    <li><span style="color: #FFFFFF">Steward system assets and focus on building value</span></li>
+    <li><span style="color: #FFFFFF">Reward our people for taking risks and finding better solutions</span></li>
+    <li><span style="color: #FFFFFF">Learn from our outcomes -- what worked and what didn’t</span></li>
+</ul></p>
+
+		   </div>
+		</div>
+		  <!--third box ends-->
+
+		  	  <!--forth box start-->
+		<div class="srv-bx distrib-inr-bx" style="  background:#C5943B; border:0; ">
+		   <div class="services-icon"><img src="images/customer-servic-icon.png" title="Customer Service " alt="Customer Service"/></div>
+		   <div class="about-this-serv">
+		      <h1>Our Winning Culture</h1>
+			  <p>Our Winning Culture defines the attitudes and behaviors that will be required of us to make our Dream Vision into a reality..
+</p>
+			 
+		   </div>
+		</div>
+		  <!--forth box ends-->
+
+			 
+	<div class="clear"></div>
+
+	</div>
+
+
+
+   <!--about us ends-->
+
   <!--content part ends-->
+
 </div>
 <!--container ends-->
+<div class="clear"></div>
+
 <!--footer starts-->
 <footer>
  <div class="inner-div">
+
       <div class="fotter-bxs">
          <h3>Phillibee Infrastructure</h3>
          <ul>
+
                   <li class="animate active"><a href="index.html">Home</a></li>
                  <li class="animate"><a href="About-us.html">About Us</a></li>
              <li class="animate"><a href="Support-Service1.html">Support & Service</a></li>
                  <li class="animate"><a href="career1.html">Career</a></li>
-                 <li class="animate"><a href="Contact-us.html">Contact Us</a></li>
+                 <li class="animate"><a href="Contact-us1.html">Contact Us</a></li>
+
          </ul>
       </div>
+
+
       <div class="fotter-bxs">
          <h3>Latest News</h3>
-         <p style=" color:#9B9B9B;">Phillibee Infrastructe (P) Ltd. launches New update of ONtime Employee Manager</p>
+         <p style=" color:#9B9B9B;">Phillibee Infrastructe (P) Ltd. launches...</p>
           <a href="javascript:void();" class="go-btn animate" style="background-color: #65881E;">Read More</a>
       </div>
+
+
+
       <div class="fotter-bxs">
          <h3>Contact Information</h3>
-         <p style="color:#9B9B9B;">F-195, GROUND FLOOR, GANDHI VIHAR, NEW DELHI-110009</p>
-         <p style="color:#9B9B9B;">Mobile  : +91 - 9910310506</p>
-         <p style=" color:#9B9B9B;">Email  : phillibee.infrastructure@gmail.com</p>
+         <p style="color:#9B9B9B;font-size: 12pt">F-195, GROUND FLOOR, GANDHI VIHAR, NEW DELHI-110009   <br><br>
+                                                    Mobile&nbsp;&nbsp;:&nbsp;+91 - 8750-8000-82 / 8750-8000-81 <br>
+                                                    Email&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;phillibee.infrastructure@gmail.com
+         </p>
         <div class="footer-socket-area">
-                        <a target="_blank" href="javascript:void();" class="gpls_icon"></a>
-                        <a target="_blank" href="javascript:void();" class="fb_icon"></a>
-                        <a target="_blank" href="javascript:void();" class="linked_icon"></a>
+                        <a href="https://mobile.twitter.com/i/start" class="fa fa-twitter"></a>
+                        <a href="https://myaccount.google.com/?pli=1" class="fa fa-google"></a>
+                       <a href="#" class="fa fa-linkedin"></a>
+
                     </div>
       </div>
+
+
+
       <div class="fotter-bxs">
          <h3>Location Map</h3>
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27996.510153102292!2d77.16738705518016!3d28.70269315149985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfe751e46fd9f%3A0x8ef552f7bff844ee!2sPHILLIBEE+INFRASTRUCTURE+Pvt.Ltd!5e0!3m2!1sen!2sin!4v1495170430383" width="600" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
+
+
+
+
+
+
       </div>
+
 </footer>
+
 <!--footer ends-->
+
 <div class="copyryt">
    @Copy Right by Phillibee Infrastructure(P) Ltd.  <br>
 <a href="http://www.rajneeshtalwar.in/">   Design and Developed by Rajneesh Talwar.</a>
-</div>>
 </div>
-<!--js starts-->
 <script src="js/jquery.1.11.3.min.js"></script>
  <script type="text/javascript" src="js/banner-slide.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -310,7 +382,7 @@ function slideShow() {
     setInterval('gallery()',3000);
 }
 function gallery() {
-    //if no IMGs have the show class, grab the first image
+   //if no IMGs have the show class, grab the first image
     var current = ($('#gallery a.show')?  $('#gallery a.show') : $('#gallery a:first'));
     //Get next image, if it reached the end of the slideshow, rotate it back to the first image
     var next = ((current.next().length) ? ((current.next().hasClass('caption'))? $('#gallery a:first') :current.next()) : $('#gallery a:first'));
@@ -331,6 +403,16 @@ function gallery() {
     $('#gallery .content').html(caption);
 }
 </script>
-<!--js ends-->
+<!--footer End-->
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
 </body>
+
+
 </html>
