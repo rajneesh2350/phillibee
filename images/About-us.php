@@ -1,7 +1,23 @@
 ﻿<!DOCTYPE html>
 <html lang="en-US" class="no-js">
 <head>
-<?php include("tophead.php")?>
+<meta charset="utf-8" />
+<meta name="google-site-verification" content="-IiBuoVQzJnuCnfByeeDA2GgDyaLKV-OzEIAP-e0voc" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="keywords" content="Infrastructure" />
+<meta name="description" content="Infrastructure" />
+<meta property="og:type" content="Infrastructure" />
+<meta property="og:title" content="Welcome to Phillibee Infrastructure" />
+<meta property="og:site_name" content="Phillibee Infrastructure Pvt Ltd" />
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<title>Welcome to Fortune Distribution</title>
+
+<!--stylesheets starts-->
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/product-slider.html" rel="stylesheet" type="text/css" media="all" />
 
 <!--stylesheets ends-->
 <!--javascripts start-->
@@ -28,7 +44,6 @@ $(document).ready(function() {
 
 <header>
 <?php
-   $indexpage = "2";              
    include ("header.php") ;
 ?>
 </header>
@@ -40,20 +55,18 @@ $(document).ready(function() {
   <!--banner ends-->
   
   <!--content part start-->
-
-
+  
+  
     <!--about us start-->
 
     <div class="inner-div">
 	  <div class="about-us-cont distrib-info">
 	     <h1>Welcome to Phillibee Infrastructure (P) Ltd.</h1>
-		 <p  style="text-align: justify">
-          Our initial task is to provide worlds best service according to the customer satisfaction <b>Phillibee infrastructure</b> supply is the best quality of goods and services with minimum value and higher satisfaction.
-          Things are made easy with the phillibee because everything is done under the consideration of best engineers greatest architectures and senior builders plus mentioning the above. <br><br>Everything will be done at your doorstep without having any problem
+		 <p>
          To Construct, Execute, Carryout, Equip, Support Maintain, Operate, Improve, Work ,Develop, Administer, Manage, Control and Superintend within or outside the country anywhere in the
          World all kinds of works, Public or otherwise, Buildings, Houses and other Constructions or Conveniences of all kinds, which expression in this memorandum includes Roads, Railways,
          and Tramways, Docks, Harbors, Piers, Wharves, Canals, Serial Runways and Hangers, Airports, Reservoirs, Embankments, Irritations, Reclamation, Improvements, Sewage, Sanitary, Water, Gas,
-         Electronic light, Power supply works, and Hotels, Cold storages, Warehouses, Cinema houses, Markets. <br><br>Public and other buildings and all other works and Conveniences of public or Private utility,
+         Electronic light, Power supply works, and Hotels, Cold storages, Warehouses, Cinema houses, Markets, <br><br>Public and other buildings and all other works and Conveniences of public or Private utility,
          to apply for purchase or otherwise acquire any Contracts, Decrease, Concessions, for or in relation to the Construction, Execution, Carrying out Equipment, Improvement, Administration, or control of all such works and conveniences as aforesaid and to undertake, execute, carry out, dispose of or otherwise turn to account the same.
            To Purchase, Sell and otherwise to carry on the business such as Builders, Contractors, Engineers, Estate Agents, Decorators and Surveyors.
           <br><br>
@@ -109,24 +122,82 @@ $(document).ready(function() {
 			 
 			 
 	<div class="clear"></div>
-
+	  
 	</div>
-
-
-
+ 
+  
+  
    <!--about us ends-->
-
+  
   <!--content part ends-->
-
+  
 </div>
 
 <!--container ends-->
 <div class="clear"></div>
 
 <!--footer starts-->
-<?php include ("footer.php")?>
-<!--footer End-->
 
+<footer>
+ <div class="inner-div">
+
+	  <div class="fotter-bxs">
+	     <h3>Phillibee Infrastructure</h3>
+		 <ul>
+
+		          <li class="animate active"><a href="index.php">Home</a></li>
+				 <li class="animate"><a href="About-us.php">About Us</a></li>
+			 <li class="animate"><a href="Support-Service1.html">Support & Service</a></li>
+				 <li class="animate"><a href="career.html">Career</a></li>
+				 <li class="animate"><a href="Contact-us1.php">Contact Us</a></li>
+
+		 </ul>
+	  </div>
+
+
+	  <div class="fotter-bxs">
+	     <h3>Latest News</h3>
+		 <p style=" color:#9B9B9B;">Phillibee Infrastructe (P) Ltd. launches New update of ONtime Employee Manager</p>
+		  <a href="javascript:void();" class="go-btn animate" style="background-color: #65881E;">Read More</a>
+	  </div>
+
+
+
+	  <div class="fotter-bxs">
+	     <h3>Contact Information</h3>
+		 <p style="color:#9B9B9B;">F-195, GROUND FLOOR, GANDHI VIHAR, NEW DELHI-110009</p>
+		 <p style="color:#9B9B9B;">Mobile  : +91 - 9910310506</p>
+		 <p style=" color:#9B9B9B;">Email  : phillibee.infrastructure@gmail.com</p>
+		<div class="footer-socket-area">
+						<a target="_blank" href="javascript:void();" class="gpls_icon"></a>
+						<a target="_blank" href="javascript:void();" class="fb_icon"></a>
+						<a target="_blank" href="javascript:void();" class="linked_icon"></a>
+
+					</div>
+	  </div>
+
+
+
+	  <div class="fotter-bxs">
+	     <h3>Location Map</h3>
+		 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27996.510153102292!2d77.16738705518016!3d28.70269315149985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfe751e46fd9f%3A0x8ef552f7bff844ee!2sPHILLIBEE+INFRASTRUCTURE+Pvt.Ltd!5e0!3m2!1sen!2sin!4v1495170430383" width="600" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  </div>
+
+
+
+
+
+
+	  </div>
+
+</footer>
+
+
+<!--footer ends-->
+
+<div class="copyryt">
+   @copyright by Phillibee Infrastructure(P) Ltd.
+</div>
 </div>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

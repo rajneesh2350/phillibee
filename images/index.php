@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 <head>
-<?php include("tophead.php")?>
+<meta charset="utf-8" />
+<meta name="google-site-verification" content="-IiBuoVQzJnuCnfByeeDA2GgDyaLKV-OzEIAP-e0voc" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="keywords" content="Infrastructure" />
+<meta name="description" content="Infrastructure" />
+<meta property="og:type" content="Infrastructure" />
+<meta property="og:title" content="Welcome to Phillibee Infrastructure" />
+<meta property="og:site_name" content="Phillibee Infrastructure Pvt Ltd" />
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<title>Welcome to Phillibee Infrastructure</title>
+<!--css starts-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/banner-slider.css" rel="stylesheet" type="text/css" media="all" />
 <!--css ends-->
 </head>
 <body>
 <div class="wrapper">
 <!--header starts-->
 <header>
-
 <?php
-   $indexpage = "1";
    include ("header.php") ;
-
 ?>
 </header>
 
@@ -92,31 +102,32 @@
                 </div><!-- ei-slider -->
    
   
-
+  
  </div>
   <!--banner ends-->
   
   <!--content part start-->
-  <div class="inner-div"> ><br><br><br>
+  <div class="inner-div">
+
    <!--services start-->
-
+  
 	 <div class="view-services">
-
+	    
 		  <!--first box start-->
 		<div class="home-srv-bx">
-		    <a href="waterways1.php" ><div class="home-servc-icon"><img src="images/home-dist-icon.png" title="Water Ways" alt="Water Ways"/></div></a>
+		    <a href="#1.html" ><div class="home-servc-icon"><img src="images/home-dist-icon.png" title="Water Ways" alt="Water Ways"/></div></a>
 		   <h1>Water Ways</h1>
-			<a href="waterways1.php" class="home-go-btn">Find Out More</a>
+			<a href="waterways.html" class="home-go-btn">Find Out More</a>
 		 </div>
 		  <!--first box ends-->
 		
 
 		  <!--second box start-->
 		<div class="home-srv-bx">
-		   <a href="uoi1.php">  <div class="home-servc-icon" style="background:#3452B2;">
+		   <a href="uoi1.html">  <div class="home-servc-icon" style="background:#3452B2;">
 		   <img src="images/home-soft-delp-icon.png" title="Urban & Other Infrastructure" alt="Urban & Other Infrastructure"/></div></a>
 		  <h1>Urban & Other Infrastructure</h1>
-		 <a href="uoi1.php" class="home-go-btn">Find Out More</a>
+		 <a href="uoi1.html" class="home-go-btn">Find Out More</a>
 		 	</div>
 		  <!--second box ends-->
 		  
@@ -124,19 +135,19 @@
 		  
 		    <!--third box start-->
 		<div class="home-srv-bx">
-		  <a href="Solution-design1.php">  <div class="home-servc-icon" style="  background:#AE3583;">
+		  <a href="Solution-design1.html">  <div class="home-servc-icon" style="  background:#AE3583;">
 		  <img src="images/home-sol-des-icon.png" title="Solution Design" alt="Solution Design"/></div></a>
 		   <h1>Solution's Design</h1>
-			  <a href="Solution-design1.php" class="home-go-btn">Find Out More</a>
+			  <a href="Solution-design1.html" class="home-go-btn">Find Out More</a>
 		  </div>
 		  <!--third box ends-->
 		  		  
 		    <!--forth box start-->
 		<div class="home-srv-bx">
-		 <a href="mission1.php" > <div class="home-servc-icon" style="background:#C5943B">
+		 <a href="mission1.html" > <div class="home-servc-icon" style="background:#C5943B">
 		 <img src="images/home-menuf-icon.png" title="Mission & Vision" alt="Mission & Vision"/></div></a>
 		    <h1>Mission & Vision</h1>
-			 <a href="mission1.php" class="home-go-btn">Find Out More</a>
+			 <a href="mission1.html" class="home-go-btn">Find Out More</a>
 		 </div>
 		  <!--forth box ends-->
 		
@@ -207,15 +218,154 @@
 <!--container ends-->
 
 <!--footer starts-->
- <?php
-   include ("footer.php") ;
-   include ("logicof_slideshow.php");
-?>
-<!--footer End-->
 
+<footer>
+ <div class="inner-div">
+	  
+	  <div class="fotter-bxs">
+	     <h3>Phillibee Infrastructure</h3>
+		 <ul>
+		  
+		          <li class="animate active"><a href="index.php">Home</a></li>
+				 <li class="animate"><a href="About-us.php">About Us</a></li>
+			 <li class="animate"><a href="Support-Service1.html">Support & Service</a></li>
+				 <li class="animate"><a href="career1.html">Career</a></li>
+				 <li class="animate"><a href="Contact-us1.php">Contact Us</a></li>
+
+		 </ul>
+	  </div>
+	  
+	  
+	  <div class="fotter-bxs">
+	     <h3>Latest News</h3>
+		 <p style=" color:#9B9B9B;">Phillibee Infrastructe (P) Ltd. launches...</p>
+		  <a href="javascript:void();" class="go-btn animate" style="background-color: #65881E;">Read More</a>
+	  </div>
+	  
+	  
+	    
+	  <div class="fotter-bxs">
+	     <h3>Contact Information</h3>
+		 <p style="color:#9B9B9B;">F-195, GROUND FLOOR, GANDHI VIHAR, NEW DELHI-110009</p>
+		 <p style="color:#9B9B9B;">Mobile  : +91 - 9910310506</p>
+		 <p style=" color:#9B9B9B;">Email  : phillibee.infrastructure@gmail.com</p>
+		<div class="footer-socket-area">
+						<a target="_blank" href="javascript:void();" class="gpls_icon"></a>
+						<a target="_blank" href="javascript:void();" class="fb_icon"></a>
+						<a target="_blank" href="javascript:void();" class="linked_icon"></a>
+					
+					</div>
+	  </div>
+	  
+	  
+	    
+	  <div class="fotter-bxs">
+	     <h3>Location Map</h3>
+		 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27996.510153102292!2d77.16738705518016!3d28.70269315149985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfe751e46fd9f%3A0x8ef552f7bff844ee!2sPHILLIBEE+INFRASTRUCTURE+Pvt.Ltd!5e0!3m2!1sen!2sin!4v1495170430383" width="600" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  </div>
+
+	  
+	  
+	  
+	  
+	  
+	  </div>
+  
+</footer>
+
+<!--footer ends-->
+
+<div class="copyryt">
+   @copyright by Phillibee Infrastructure(P) Ltd.
+</div>
 </div>
 <!--js starts-->
+<script src="js/jquery.1.11.3.min.js"></script>
+ <script type="text/javascript" src="js/banner-slide.js"></script>
+  
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('#ei-slider').eislideshow({
+					animation			: 'center',
+					autoplay			: true,
+					slideshow_interval	: 4000,
+					titlesFactor		: 0
+                });
+            });
+        </script>
+		
+		
+		<!--Distributions function-->
+		<script type="text/javascript">
 
+$(document).ready(function() {		
+	$( ".mnu-icon" ).click(function() {
+  $( ".mobile-mnu" ).slideToggle( "slow", function() {
+    // Animation complete.
+  });
+});
+	//Execute the slideShow
+	slideShow();
+
+});
+
+function slideShow() {
+
+	//Set the opacity of all images to 0
+	$('#gallery a').css({opacity: 0.0});
+	
+	//Get the first image and display it (set it to full opacity)
+	$('#gallery a:first').css({opacity: 1.0});
+	
+	//Set the caption background to semi-transparent
+	$('#gallery .caption').css({opacity: 0.7});
+
+	//Resize the width of the caption according to the image width
+	$('#gallery .caption').css({width: $('#gallery a').find('img').css('width')});
+	
+	//Get the caption of the first image from REL attribute and display it
+	$('#gallery .content').html($('#gallery a:first').find('img').attr('rel'))
+	.animate({opacity: 0.7}, 400);
+	
+	//Call the gallery function to run the slideshow, 6000 = change to next image after 6 seconds
+	setInterval('gallery()',3000);
+	
+}
+
+function gallery() {
+	
+	//if no IMGs have the show class, grab the first image
+	var current = ($('#gallery a.show')?  $('#gallery a.show') : $('#gallery a:first'));
+
+	//Get next image, if it reached the end of the slideshow, rotate it back to the first image
+	var next = ((current.next().length) ? ((current.next().hasClass('caption'))? $('#gallery a:first') :current.next()) : $('#gallery a:first'));	
+	
+	//Get next image caption
+	var caption = next.find('img').attr('rel');	
+	
+	//Set the fade in effect for the next image, show class has higher z-index
+	next.css({opacity: 0.0})
+	.addClass('show')
+	.animate({opacity: 1.0}, 1000);
+
+	//Hide the current image
+	current.animate({opacity: 0.0}, 1000)
+	.removeClass('show');
+	
+	//Set the opacity to 0 and height to 1px
+	$('#gallery .caption').animate({opacity: 0.0}, { queue:false, duration:50 }).animate({height: '1px'}, { queue:true, duration:300 });	
+	
+	//Animate the caption, opacity to 0.7 and heigth to 100px, a slide up effect
+	$('#gallery .caption').animate({opacity: 0.7},100 ).animate({height: '100px'},500 );
+	
+	//Display the content
+	$('#gallery .content').html(caption);
+	
+	
+}
+
+</script>
 <!--js ends-->
 </body>
 </html>

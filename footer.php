@@ -56,5 +56,6 @@
 <!--footer ends-->
 
 <div class="copyryt">
-   @copyright by Phillibee Infrastructure(P) Ltd.
+   @Copy Right by Phillibee Infrastructure(P) Ltd.  <br>
+<a href="http://www.rajneeshtalwar.in/">   Design and Developed by Rajneesh Talwar.</a>
 </div>

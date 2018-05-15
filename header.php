@@ -89,9 +89,6 @@ echo 'Your Page No. Class:'.$animation6;
       </div>
 <!-- Contact and menu-->
    </div>
-
-   <link rel="stylesheet" href="pausingscroller.css" />
-
 <style>
 .fa {
   padding: 20px;
